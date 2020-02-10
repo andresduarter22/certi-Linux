@@ -1,0 +1,8 @@
+aprendiendo linux xD
+cp sirve para copiar arichos o directorios
+rm eliminar archivos
+mv para editar nombre de archivos o directorios
+mkdir para crear directorios
+rmdir para eliminar directorios vacios, necesitan comandos extras para borrar directorios llenos 
+touch para creas archivos 
+ls lista de elementos en el directorio seleccionado 
