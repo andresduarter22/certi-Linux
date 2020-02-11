@@ -1,0 +1,15 @@
+El grupo a de comandos: 
+ls: lista todos los archivos 
+ls -m: muestra todos los archivso en texto plano como mensaje
+ls -l: muestra todos los elementos con mas informacion
+ls -l -v: muestra todos los elementos con mas inforamcion ordenado de menos a mayor dando prioridad numerica
+El grupo b de comandos: 
+ls a*: muestra todos los elementos en el directorio que empiecen con una a
+ls a*.c:muestra todos los elementos en el directorio que empiecen con una a  y que al final tengan .c
+ls a???.c: muestra todos los elementos en el directorio que empiecen con una a, despues de la a tengan tres caracteres y que terminen con .c
+ls a?????.c: muestra todos los elementos en el directorio que empiecen con una a, segidamente tienen cinco carecteres y que termine en .c
+ls ?iii?.c: muestra todos los elementos en el directorio que tengan cualquier caracter al inicio, que al medio tengan tres i seguidas, luego otro caracter y que finalice en .c
+ls *9.c: muestra todos los elementos en el directorio que tengan cualquier cantidad de caracteres y que al final tenga 9.c 
+El grupo c de comandos:
+ls ai[0-5].c: Muestra todos los elementos que empiecen con ai, que tengan luego algun numerio entre 1 a 5 y que terminen en .c
+ls [a-c]ii1.c: Muestra todos los elementos que empiecen con caracteres entre a - c y que finalicen con ii1.c

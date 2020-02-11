@@ -1,0 +1,3 @@
+El comando ls -S lista los elementos por su tamano poniendo el mas grande primero 
+El comando ls -m lista los elementos separados por una coma
+El comando ls -d lista los directorios y no su contenido

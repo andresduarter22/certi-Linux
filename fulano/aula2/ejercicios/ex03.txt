@@ -1,0 +1,2 @@
+El comando cp -r hace que se copien los archivos de manera recursiva copiendo todo lo que esta dentro del directorio 
+El comando mkdir -m te permite crear un directorio con permisos diferentes desde el inicio 
