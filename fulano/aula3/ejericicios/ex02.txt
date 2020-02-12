@@ -1,0 +1,3 @@
+alias redic='ls>>archivo.txt'
+alias sortt='sort<archivo.txt'
+alias redicsortt='sort<archivo.txt>>resultado.txt'
