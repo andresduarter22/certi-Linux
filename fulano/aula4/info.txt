@@ -1,0 +1,19 @@
+Nombre de maquina: andres con el comando hostname
+Hora de la maquina: Fri 14 Feb 06:56:48 AM EST con el comando date
+direccion del comando cp: /usr/bin/cp con el comando which cp
+seguir los ejemplos de la pagina: 
+	-el primero solo se usa find ./ y busca todo dentro del directiorio
+	-el segundo se usa find ./curso -maxdepth 2 busca archivos dentro del 
+	directorio y luego busca igual todo los elementos dentro de los 		siguientes directorios con una profundidad de dos 
+	-cuando aplicas ! entre dos flags de un comando excluye los resultados		 que cumplan con ambas flags por ejemplo					 find ./curso -name '*curso*' ! -name '-.txt'
+	-Si quieres que solo busque directorios o ficheros debes poner el flag			-type d o -type f por ejemplo find curso -type d
+	-para buscar todos los archivos ocultos de utiliza el comando 			find -type f -name ".*"
+	-cuando aplicas el flag -perm y el permiso busca solo elementos con 		dicho permiso por ejemplo find ./ -type f -perm 740
+	-para buscar elementos por el usuario que los creo se usa el flag -user		por ejemplo find ~ -user root
+	-para buscara por grupo se usa el flag -group admin 
+	-para buscar archivos en tiempos especificos se usa -atime o -ctime 		o -mtime seguido de la cantidad de dias que deseas revisar 
+	- para ver archivos por tamanios se usa -size
+Para encontrar todos los archivos desde home/curso se usa el comando		
+find ~/curso/ -name '*.txt'
+Para borrar los achivos que terminen en .so usas el comando rm *.so
+
